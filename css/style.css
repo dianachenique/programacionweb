@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto mono', monospace;
+}
+
+header {
+    width: 100%;
+    background: linear-gradient(207.8deg, #e66bdf 16.69%, #a00bdb 100%);
+}
+
+.nav-container {
+    width: 100vh;
+    height: 8rem;
+    padding: 2rem;
+    font-size: 2.5rem;
+    color: aliceblue;
+}
+
