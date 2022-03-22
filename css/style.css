@@ -25,6 +25,11 @@ header, footer{
     color: aliceblue;
 }
 
+.nav-container a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
 .post{
     display: flex;
     width: 100%;
