@@ -12,7 +12,7 @@ body {
     font-family: 'Roboto mono', monospace;
 }
 
-header {
+header, footer{
     width: 100%;
     background: linear-gradient(207.8deg, #e66bdf 16.69%, #a00bdb 100%);
 }
@@ -25,3 +25,23 @@ header {
     color: aliceblue;
 }
 
+.footer-container {
+    height: 8rem;
+}
+
+.footer-social {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-self: end;
+    margin-right: 50px;
+    padding: 2rem 0;
+}
+
+.footer-social img {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 2rem;
+}
