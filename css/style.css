@@ -55,27 +55,22 @@ header, footer{
 
 .post .post-content h3 {
     font-size: 6rem;   
+    text-align: center;
 }
 
 .post .post-content p {
     font-size: 3rem;
+    margin-left: 2rem;
 }
 
 .post .post-content a {
     font-size: 2rem;
+    margin-left: 3rem;
 }
 
 .separador {
     width: 90%;
     padding-left: 12.5rem;
-    
-}
-
-.separador hr {
-    
-    padding-left: 20rem;
-    
-    
 }
 
 .footer-container {
