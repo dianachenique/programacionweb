@@ -22,14 +22,27 @@
 }
 
 .post p {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .post a {
   text-decoration: underline;
   color: black;
+  font-size: 1.2rem;
 }
 
 .post hr {
   height: 3px;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(207.8deg, #e66bdf 16.69%, #a00bdb 100%);
+}
+
+.footer .footer-social img {
+  width: 50px;
+  height: 45px;
+  padding-right: 10px;
 }
