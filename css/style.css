@@ -17,6 +17,10 @@ header, footer{
     background: linear-gradient(207.8deg, #e66bdf 16.69%, #a00bdb 100%);
 }
 
+header {
+    display: flex;
+}
+
 .nav-container {
     width: 100vh;
     height: 8rem;
@@ -28,6 +32,17 @@ header, footer{
 .nav-container a {
     text-decoration: none;
     color: aliceblue;
+}
+
+.nav-contact {
+    
+    margin: auto 0;
+}
+
+.nav-contact a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 2rem;
 }
 
 .post{
@@ -60,7 +75,7 @@ header, footer{
 
 .post .post-content p {
     font-size: 3rem;
-    margin-left: 2rem;
+    margin: 0 2rem;
 }
 
 .post .post-content a {
