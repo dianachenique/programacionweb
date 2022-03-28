@@ -2,7 +2,16 @@
   background: linear-gradient(207.8deg, #e66bdf 16.69%, #a00bdb 100%);
 }
 
-.navbar a {
+.navbar .container-fluid a {
+  color: aliceblue;
+  font-size: 1.8rem;
+}
+
+.navbar .container-fluid .navbar-collapse a {
+  color: aliceblue;
+}
+
+.navbar .container-fluid .navbar-collapse button {
   color: aliceblue;
   font-size: 1.8rem;
 }
@@ -45,4 +54,8 @@
   width: 50px;
   height: 45px;
   padding-right: 10px;
+}
+
+.modal-body a {
+  opacity: 0;
 }
